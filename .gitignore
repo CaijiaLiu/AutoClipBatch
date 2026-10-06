@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.autoclip/
+output/
+input/*
+!input/demo.mp4
+tools/ffmpeg
+tools/ffprobe
+tools/*.zip

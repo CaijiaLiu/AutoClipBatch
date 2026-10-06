@@ -1,0 +1,41 @@
+{
+  "input_dir": "input",
+  "output_dir": "output",
+  "pattern": "*",
+  "batch_enabled": false,
+  "defaults": {
+    "trim_start": 0,
+    "duration": 8,
+    "title": "AutoClip Batch Demo",
+    "watermark": null
+  },
+  "overrides": {},
+  "compilations": [
+    {
+      "output": "combined_vlog.mp4",
+      "title": "My Short Vlog",
+      "clips": [
+        {
+          "file": "demo.mp4",
+          "start": 1,
+          "duration": 3
+        },
+        {
+          "file": "demo.mp4",
+          "start": 7,
+          "duration": 3
+        }
+      ]
+    }
+  ],
+  "auto_highlights": [
+    {
+      "file": "demo.mp4",
+      "output": "auto_highlight_vlog.mp4",
+      "target_duration": 6,
+      "clip_duration": 2,
+      "sample_interval": 1,
+      "title": "Auto Highlights"
+    }
+  ]
+}
